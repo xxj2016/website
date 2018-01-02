@@ -1,0 +1,41 @@
+$aga-color: #d02;
+.aga-footer {
+    background-color: #474747;
+    color: #fff;
+    .copyright-box {
+        display: block;
+        cursor: pointer;
+        padding: 30px 0 0 0;
+        text-align: center;
+        img {
+            width: 150px;
+        }
+        span {
+            display: block;
+            margin-top: 10px;
+            color: #fff;
+        }
+    }
+    .contact-box {
+        padding: 30px 0 0 0;
+        text-align: left;
+        .title {
+            color: $aga-color;
+            font-size: 18px;
+        }
+    }
+    .map-box {
+        display: block;
+        cursor: pointer;
+        padding: 30px 0;
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration:underline;
+    }
+}

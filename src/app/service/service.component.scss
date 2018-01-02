@@ -1,0 +1,29 @@
+$aga-color: #d02;
+$text-color: #707070;
+.service-item {
+    height: 225px;
+    border: 1px solid #e3e3e3;
+    padding: 18px;
+
+    .logo-img {
+        display: block;
+        margin: 0 auto;
+    }
+    .title {
+        margin-top: 15px;
+        text-align: center;
+        color: $aga-color;
+        font-size: 17px;
+    }
+    .content-info {
+        margin-top: 20px;
+        color: $text-color;
+        text-align: center;
+        line-height: 25px;
+    }
+}
+@media (max-width: 990px) {
+    .service-item {
+        height: auto;
+    }
+}

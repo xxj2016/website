@@ -1,0 +1,33 @@
+.customer-content {
+    padding: 15px 15px;
+}
+
+.customer-title {
+    padding: 20px 15px;
+    font-size: 20px;
+    color: #636363;
+    text-align: center;
+}
+
+.customer-box {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.customer-item {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    img {
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .customer-item {
+        width: 20%;
+        float: left;
+    }
+}

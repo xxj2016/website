@@ -1,14 +1,52 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Summer</title>
-  <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<head>
+    <meta charset="utf-8">
+    <title>Summer</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--开启对web app的支持-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
+    <link type="image/png" rel="icon" href="assets/imgs/fav.png">
+    <script src="assets/jquery-3.1.1/jquery.min.js"></script>
+    <script src="assets/jquery-flexisel/jquery.flexisel.js"></script>
 </head>
+
 <body>
-  <app-root></app-root>
+    <app-root>Loading...</app-root>
 </body>
+<script type="text/javascript">
+    $('html,body').animate({
+        scrollTop: '0px'
+    }, 800);
+    $(".nbs-flexisel-ul").flexisel({
+        visibleItems: 3, //一行显数的个数
+        animationSpeed: 200, //动画时间
+        autoPlay: true, //自动播放
+        autoPlaySpeed: 3000, //播放间隔时间
+        pauseOnHover: true, //鼠标悬浮是否停止播放
+        clone: true, //是否使用克隆
+        enableResponsiveBreakpoints: true, //是否开启响应式
+        responsiveBreakpoints: {
+            portrait: { //项目名，可随意命名
+                changePoint: 480, //屏幕最大像素，意思为当屏幕最大像素为480时，只显示一个Item，即例子只显示一张图片。
+                visibleItems: 1 //只显示一个Item，下面的雷同
+            },
+            landscape: {
+                changePoint: 640,
+                visibleItems: 2
+            },
+            tablet: {
+                changePoint: 768,
+                visibleItems: 3
+            }
+        }
+    });
+
+</script>
+
 </html>

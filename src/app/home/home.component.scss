@@ -1,0 +1,40 @@
+.welcome-area {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.welcome-area .content-box {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -150px;
+    .year {
+        margin-bottom: 30px;
+        font-size: 600%;
+        letter-spacing: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .title {
+        margin-bottom: 30px;
+        font-size: 200%;
+        letter-spacing: 5px;
+        color: #fff;
+        text-align: center;
+    }
+    .subtitle {
+        margin-top: 10px;
+        font-size: 100%;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.hero { background: url(../../assets/imgs/main-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: auto; }
+.hero h1 { font-size: 30px; letter-spacing: 12px; margin: 40px 0 40px; font-weight: 900; color: #d02;}
+.hero h1 span { color: #a1a9b0; display: inline-block; }
+.hero p { font-size: 20px; font-weight: 400; color: #fefefe; }

@@ -1,0 +1,36 @@
+.nbs-flexisel-inner {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0;
+    .nbs-flexisel-ul {
+        position: relative;
+        width: 9999px;
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        text-align: center;
+        .nbs-flexisel-item {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            cursor: pointer;
+            position: relative;
+            img {
+                width: 100%;
+                cursor: pointer;
+                position: relative;
+                padding: 0 15px;
+            }
+            p {
+                text-align: left;
+                padding: 5px 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .nbs-flexisel-item img {
+        padding: 0 !important;
+    }
+}

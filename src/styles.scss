@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+
+$icon-font-path: "assets/bootstrap-sass-3.3.7/assets/fonts/bootstrap/";
+@import "assets/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap";
+$fa-font-path: "assets/font-awesome-4.7.0/fonts";
+@import "assets/font-awesome-4.7.0/scss/font-awesome";
+html,
+body {
+    color: #333333;
+    font-family: -apple-system, "SF UI Text", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Zen Hei", sans-serif;
+    background-color: #f9f9f9;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/*滚动条样式*/
+
+::-webkit-scrollbar {
+    width: 10px!important;
+    height: 10px!important;
+    -webkit-appearance: none;
+    /*background: #fff;*/
+}
+
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: none;
+    -webkit-border-radius: 6px;
+    background-color: rgba(0, 0, 0, .3);
+    background-clip: padding-box;
+}
+
+@for $size from 1 through 20 {
+    @each $position in top,
+    left,
+    right,
+    bottom {
+        .margin-#{$position}-#{$size} {
+            margin-#{$position}: 1px * $size;
+        }
+    }
+}
+
+$aga-color: #d02;
+$text-color: #333;
+$text-color-1: #636363;
+
+.aga-panel {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    .panel-heading {
+        position: relative;
+        padding: 20px 15px;
+        font-size: 20px;
+        border: 0;
+        color: $aga-color;
+        background-color: #fff;
+        .divider {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 80px;
+            height: 1px;
+            border-bottom: 1px solid $text-color-1;
+            margin-left: -40px;
+        }
+    }
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ddd;
+}
