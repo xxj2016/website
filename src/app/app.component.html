@@ -16,22 +16,10 @@
                 <li role="menuitem"><a class="dropdown-item" (click)="goTo('footer')">联系我们</a></li>
             </ul>
             <a href="home#home" class="navbar-brand navbar-brand-my">
-                <img src="assets/imgs/logo_r1.png" alt="AgileAct" id="aga-logo-1">
-                <img src="assets/imgs/logo_r1.png" alt="AgileAct" id="aga-logo-2">
+                <img src="assets/imgs/logo_r1.png" alt="Master Class" id="aga-logo-1">
+                <img src="assets/imgs/logo_r1.png" alt="Master Class" id="aga-logo-2">
             </a>
         </div>
-        <!--<div class="navbar-header">
-            <button #button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse" (click)="toggle()">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="home#home" class="navbar-brand navbar-brand-my">
-                <img src="assets/imgs/logo_w.png" alt="AgileAct" id="aga-logo-1">
-                <img src="assets/imgs/logo_r.png" alt="AgileAct" id="aga-logo-2">
-            </a>
-        </div>-->
         <div [hidden]="this.collapse" class="navbar-collapse navbar-responsive-collapse main-navigation" (click)="toggle()">
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
@@ -45,6 +33,9 @@
                 </li>
                 <li class="dropdown">
                     <a (click)="goTo('about')">课程</a>
+                </li>
+                <li class="dropdown">
+                    <a (click)="goTo('customer')">活动</a>
                 </li>
                 <li class="dropdown">
                     <a (click)="goTo('footer')">联系我们</a>
