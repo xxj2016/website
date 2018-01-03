@@ -15,7 +15,6 @@ import { ContactComponent } from './contact/contact.component';
 import { CustomerComponent } from './customer/customer.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
-import { SanetCaseComponent } from './sanet-case/sanet-case.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 @NgModule({
@@ -28,7 +27,6 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
         ContactComponent,
         CustomerComponent,
         MapComponent,
-        SanetCaseComponent,
         FooterComponent
     ],
     imports: [
