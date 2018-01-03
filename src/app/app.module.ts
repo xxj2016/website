@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 
 import { appRoutes } from './app.routes';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import { CourseComponent } from './course/course.component';
 import { ValueComponent } from './value/value.component';
 import { AdmissionComponent } from './admission/admission.component';
 import { CustomerComponent } from './customer/customer.component';
@@ -20,7 +20,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
     declarations: [
         AppComponent,
         HomeComponent,
-        AboutComponent,
+        CourseComponent,
         ValueComponent,
         AdmissionComponent,
         CustomerComponent,
