@@ -5,14 +5,6 @@ $aga-color: #d02;
     padding: 0; // box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-#aga-logo-1 {
-    display: none;
-}
-
-#aga-logo-2 {
-    display: block;
-}
-
 .main-nav-fix {
     position: fixed;
     left: 0;
@@ -23,12 +15,6 @@ $aga-color: #d02;
     animation: animatedown .3s;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.24);
-    #aga-logo-1 {
-        display: none;
-    }
-    #aga-logo-2 {
-        display: block;
-    }
     .nav>li>a {
         color: #333;
         cursor: pointer;
@@ -82,12 +68,6 @@ $aga-color: #d02;
 }
 
 @media (max-width: 768px) {
-    #aga-logo-1 {
-        display: block !important;
-    }
-    #aga-logo-2 {
-        display: none !important;
-    }
     .main-container {
         margin-top: 50px;
     }
