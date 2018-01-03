@@ -11,7 +11,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ValueComponent } from './value/value.component';
 import { CaseComponent } from './case/case.component';
-import { ContactComponent } from './contact/contact.component';
 import { CustomerComponent } from './customer/customer.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
@@ -24,7 +23,6 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
         AboutComponent,
         ValueComponent,
         CaseComponent,
-        ContactComponent,
         CustomerComponent,
         MapComponent,
         FooterComponent
