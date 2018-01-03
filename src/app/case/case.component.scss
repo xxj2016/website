@@ -46,6 +46,19 @@
     background-image: url(../../assets/imgs/admissions_bg.jpg);
     border: 15px solid #fefefe;
 }
+.horL {
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: -424px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1170px;
+    height: 254px;
+    content: '';
+    background: url(../../assets/imgs/horL.png) no-repeat;
+}
 
 @media screen and (max-width: 1190px){
     .horL {
