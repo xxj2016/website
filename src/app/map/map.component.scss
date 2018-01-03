@@ -1,0 +1,19 @@
+.map-content {
+    padding: 30px 0;
+    p {
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 14px;
+        line-height: 28px;
+
+    }
+}
+.map-box {
+    display: block;
+    cursor: pointer;
+    padding: 30px 0;
+    text-align: center;
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

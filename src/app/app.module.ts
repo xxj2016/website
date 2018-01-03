@@ -13,6 +13,7 @@ import { ServiceComponent } from './service/service.component';
 import { CaseComponent } from './case/case.component';
 import { ContactComponent } from './contact/contact.component';
 import { CustomerComponent } from './customer/customer.component';
+import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
 import { SanetCaseComponent } from './sanet-case/sanet-case.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
@@ -26,6 +27,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
         CaseComponent,
         ContactComponent,
         CustomerComponent,
+        MapComponent,
         SanetCaseComponent,
         FooterComponent
     ],
