@@ -1,36 +1,68 @@
-.nbs-flexisel-inner {
+.about1 {
+    float: right;
+    text-align: right;
+}
+.about2 {
+    float: left;
+    text-align: left;
+}
+
+.about h3 {
+    margin-top: 51px;
+    font-size: 16px;
+    color: #2f2f2f;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+}
+.about p {
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.about .title {
+    font-family: cursive;
+    font-size: 25px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+    float: right;
+    margin: 34px 34px 75px 34px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: #fefefe;
+}
+
+.admissions_bg {
     width: 100%;
-    overflow: hidden;
-    padding: 15px 0;
-    .nbs-flexisel-ul {
-        position: relative;
-        width: 9999px;
-        margin: 0px;
-        padding: 0px;
-        list-style-type: none;
-        text-align: center;
-        .nbs-flexisel-item {
-            float: left;
-            margin: 0px;
-            padding: 0px;
-            cursor: pointer;
-            position: relative;
-            img {
-                width: 100%;
-                cursor: pointer;
-                position: relative;
-                padding: 0 15px;
-            }
-            p {
-                text-align: left;
-                padding: 5px 15px;
-            }
-        }
+    background-size: cover;
+    height: 500px;
+    background-image: url(../../assets/imgs/admissions_bg.jpg);
+    border: 15px solid #fefefe;
+}
+
+@media screen and (max-width: 1190px){
+    .horL {
+        display: none;
     }
 }
 
-@media (max-width: 425px) {
-    .nbs-flexisel-item img {
-        padding: 0 !important;
+@media screen and (max-width: 1229px){
+    .about .title {
+        margin-bottom: 85px;
+    }
+}
+@media screen and (max-width: 991px){
+    .about .title {
+        margin-bottom: 20px;
+    }
+    .admissions_bg {
+        height: 350px;
     }
 }

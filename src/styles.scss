@@ -81,3 +81,33 @@ $text-color-1: #636363;
 .border-bottom {
     border-bottom: 1px solid #ddd;
 }
+
+
+.table>tbody>tr.danger>td,
+.table>tbody>tr.danger>th,
+.table>tbody>tr>td.danger,
+.table>tbody>tr>th.danger,
+.table>tfoot>tr.danger>td,
+.table>tfoot>tr.danger>th,
+.table>tfoot>tr>td.danger,
+.table>tfoot>tr>th.danger,
+.table>thead>tr.danger>td,
+.table>thead>tr.danger>th,
+.table>thead>tr>td.danger,
+.table>thead>tr>th.danger {
+    background-color: #EFD3D2;
+}
+.table>tbody>tr.danger-dark>td,
+.table>tbody>tr.danger-dark>th,
+.table>tbody>tr>td.danger-dark,
+.table>tbody>tr>th.danger-dark,
+.table>tfoot>tr.danger-dark>td,
+.table>tfoot>tr.danger-dark>th,
+.table>tfoot>tr>td.danger-dark,
+.table>tfoot>tr>th.danger-dark,
+.table>thead>tr.danger-dark>td,
+.table>thead>tr.danger-dark>th,
+.table>thead>tr>td.danger-dark,
+.table>thead>tr>th.danger-dark {
+    background-color: #DFA7A6;
+}
