@@ -10,7 +10,7 @@ import { appRoutes } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ValueComponent } from './value/value.component';
-import { CaseComponent } from './case/case.component';
+import { AdmissionComponent } from './admission/admission.component';
 import { CustomerComponent } from './customer/customer.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
@@ -22,7 +22,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
         HomeComponent,
         AboutComponent,
         ValueComponent,
-        CaseComponent,
+        AdmissionComponent,
         CustomerComponent,
         MapComponent,
         FooterComponent

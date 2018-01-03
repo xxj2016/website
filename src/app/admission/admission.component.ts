@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 declare let $: any;
 
 @Component({
-    selector: 'app-case',
-    templateUrl: './case.component.html',
-    styleUrls: ['./case.component.scss']
+    selector: 'app-admission',
+    templateUrl: './admission.component.html',
+    styleUrls: ['./admission.component.scss']
 })
-export class CaseComponent implements OnInit {
+export class AdmissionComponent implements OnInit {
 
     constructor(
         public router: Router
