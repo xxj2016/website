@@ -1,6 +1,6 @@
 $aga-color: #d02;
 $text-color: #707070;
-.service-item {
+.value-item {
     height: 225px;
     border: 1px solid #e3e3e3;
     padding: 18px;
@@ -23,7 +23,7 @@ $text-color: #707070;
     }
 }
 @media (max-width: 990px) {
-    .service-item {
+    .value-item {
         height: auto;
     }
 }

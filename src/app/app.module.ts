@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ServiceComponent } from './service/service.component';
+import { ValueComponent } from './value/value.component';
 import { CaseComponent } from './case/case.component';
 import { ContactComponent } from './contact/contact.component';
 import { CustomerComponent } from './customer/customer.component';
@@ -22,7 +22,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
         AppComponent,
         HomeComponent,
         AboutComponent,
-        ServiceComponent,
+        ValueComponent,
         CaseComponent,
         ContactComponent,
         CustomerComponent,
