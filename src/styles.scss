@@ -36,6 +36,7 @@ img {
     background-clip: padding-box;
 }
 
+// 定义margin-$position-$size
 @for $size from 1 through 20 {
     @each $position in top,
     left,
@@ -47,6 +48,7 @@ img {
     }
 }
 
+// 定义通用颜色
 $aga-color: #d02;
 $text-color: #333;
 $text-color-1: #636363;
@@ -82,7 +84,7 @@ $text-color-1: #636363;
     border-bottom: 1px solid #ddd;
 }
 
-
+// 定义表格背景色
 .table>tbody>tr.danger>td,
 .table>tbody>tr.danger>th,
 .table>tbody>tr>td.danger,
@@ -110,4 +112,14 @@ $text-color-1: #636363;
 .table>thead>tr>td.danger-dark,
 .table>thead>tr>th.danger-dark {
     background-color: #DFA7A6;
+}
+
+// 表格边框线的颜色
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+    border: 1px solid #cf7b79;
 }
