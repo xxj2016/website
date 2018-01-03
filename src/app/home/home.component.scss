@@ -1,4 +1,28 @@
-.hero { background: url(../../assets/imgs/course_bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: auto; }
-.hero h1 { font-size: 30px; letter-spacing: 12px; margin: 40px 0 40px; font-weight: 900; color: #d02;}
-.hero h1 span { color: #a1a9b0; display: inline-block; }
-.hero p { font-size: 20px; font-weight: 400; color: #fefefe; }
+.home {
+    background: url(../../assets/imgs/course_bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+    height: auto;
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 12px;
+        margin: 40px 0 40px;
+        font-weight: 900;
+        color: #d02;
+
+        span {
+            color: #a1a9b0;
+            display: inline-block;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fefefe;
+    }
+}
