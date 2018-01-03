@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { CourseComponent } from './course/course.component';
 import { ValueComponent } from './value/value.component';
 import { AdmissionComponent } from './admission/admission.component';
-import { CustomerComponent } from './customer/customer.component';
+import { ActivityComponent } from './activity/activity.component';
 import { MapComponent } from './map/map.component';
 import { FooterComponent } from './footer/footer.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
@@ -23,7 +23,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
         CourseComponent,
         ValueComponent,
         AdmissionComponent,
-        CustomerComponent,
+        ActivityComponent,
         MapComponent,
         FooterComponent
     ],
